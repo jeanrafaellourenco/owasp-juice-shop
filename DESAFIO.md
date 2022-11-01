@@ -313,7 +313,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
 Se você chegou até aqui e fez algum esforço para resolver os desafios acima, tente encontrar a página de 'placar' cuidadosamente escondida. Descubra quantos desafios acertou, encontre outros desafios e dicas extras.
 
+#
 Estes desafios estão disponíveis na sala [gratuita da Tryhackme](https://tryhackme.com/room/owaspjuiceshop) criada por [Cake](https://tryhackme.com/p/Cake) e traduzidos para o português por mim. 
 
 A solução para estes e outros desafios do Top 10 Owasp do projeto Juice Shop estão disponíveis [aqui](https://pwning.owasp-juice.shop/appendix/solutions.html). 
-#
