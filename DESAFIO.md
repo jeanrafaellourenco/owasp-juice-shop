@@ -1,4 +1,4 @@
-# Love Stickers Nerd - Desafios
+# <img alt="love" src="imagens/logo.png" style="max-width: 100%;" width="100" height="100" align="middle"> Love Stickers Nerd - Desafios
 
 ### 1. Acesse a aplicação e navegue por todas as telas. Esta fase é conhecida como **reconhecimento**. Identifique as telas e qualquer informação que parecer útil.  
 
