@@ -21,7 +21,7 @@ Sendo um aplicativo da Web com um grande número de vulnerabilidades de seguran�
         sudo apt install -y docker.io docker-compose
         # add usuario ao grupo docker
         sudo usermod -aG docker $USER
-        # Talvez seja necessário reiniciar a sessão dos eu usário para aplicar as permiss
+        # Talvez seja necessário reiniciar a sessão do seu usário para aplicar as permiss
       </pre>
   </details></li>
   </ul>  
