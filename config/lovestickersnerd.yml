@@ -42,6 +42,7 @@ application:
     overlayMap: 'https://i.imgur.com/G7KqVLk.png'
 challenges:
   xssBonusPayload: '<iframe width="560" height="315" src="https://www.youtube.com/embed/BYeam6xvjcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  safetyOverride: true
 hackingInstructor:
   isEnabled: false
   avatarImage: 'https://ph-files.imgix.net/901876fb-f043-45bb-bfc2-bea8f477e533?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop'
@@ -64,7 +65,7 @@ products:
     quantity: 3
     price: 4.99
     reviews:
-      - { text: 'Weird is the new cool!', author: admin }
+      - { text: 'Live long and prosper!', author: jim }
   -
     name: 'Darkcat'
     image : 'https://i.imgur.com/uadyaAJ.png'
@@ -79,6 +80,8 @@ products:
     image : 'https://i.imgur.com/OrgsXOQ.png'
     description: 'Imagem meramente ilustrativa'
     price: 4.99
+    reviews:
+      - { text: 'One of my favorites!', author: admin }
   -
     name: 'In case of fire'
     image : 'https://i.imgur.com/GRJTjFZ.png'
