@@ -1,8 +1,8 @@
 application:
   domain: lovestickersnerd.com
   name: 'Love Stickers Nerd'
-  logo: 'https://i.imgur.com/4Zctawp.png'
-  favicon: 'https://i.imgur.com/4Zctawp.png'
+  logo: 'https://i.imgur.com/Y9rziLk.png'
+  favicon: 'https://i.imgur.com/Y9rziLk.png'
   theme: bluegrey-lightgreen
   showGitHubLinks: false
   altcoinName: lovestickersnerd
