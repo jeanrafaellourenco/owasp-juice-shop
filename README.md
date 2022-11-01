@@ -1,4 +1,4 @@
-# <img alt="love" src="imagens/white-heart-icon-png-2-Free-PNG-Images-Transparent.png" style="max-width: 100%;" width="100" height="100" align="middle"> Love Stickers Nerd
+# <img alt="love" src="imagens/logo.png" style="max-width: 100%;" width="100" height="100" align="middle"> Love Stickers Nerd
 ```
 ***************** P-R-E-R-I-G-O ☠️ ***********************
 Não execute esta aplicação em um ambiente web ou 
