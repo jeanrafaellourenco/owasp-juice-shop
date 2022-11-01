@@ -17,16 +17,6 @@ Se tudo ocrreu bem você deverá ver a tela de boas vindas:
 ![boasvindas](./imagens/boasvindas.png)
 
 Vamos utilizar o aplicativo Web vulnerável baseado no [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/) para aprender a identificar e explorar vulnerabilidades comuns de aplicativos Web.
-#
-
-## OWASP's TOP 10 vulnerabilities
-
-  O [OWASP Top 10](https://owasp.org/www-project-top-ten/) é um documento de conscientização padrão para desenvolvedores e segurança de aplicativos da web. Ele representa um amplo consenso sobre os riscos de segurança mais críticos para aplicativos da web.
-
-  As empresas devem adotar este documento e iniciar o processo de garantir que suas aplicações web minimizem esses riscos. Usar o OWASP Top 10 talvez seja o primeiro passo mais eficaz para mudar a cultura de desenvolvimento de software em sua organização para uma que produza um código mais seguro.
-
-  O [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/) é um aplicativo grande, portanto, não abordaremos todos os tópicos do top 10.
-  No entanto, abordaremos os tópicos a seguir, que recomendamos que você dê uma olhada na documentação à medida que avançar nos items.  
 
 # Passos práticos
 
@@ -53,7 +43,15 @@ Vamos utilizar o aplicativo Web vulnerável baseado no [Pwning OWASP Juice Shop]
 
     </details><br>
 
-# Explorando
+## OWASP's TOP 10 vulnerabilities
+
+  O [OWASP Top 10](https://owasp.org/www-project-top-ten/) é um documento de conscientização padrão para desenvolvedores e segurança de aplicativos da web. Ele representa um amplo consenso sobre os riscos de segurança mais críticos para aplicativos da web.
+
+  As empresas devem adotar este documento e iniciar o processo de garantir que suas aplicações web minimizem esses riscos. Usar o OWASP Top 10 talvez seja o primeiro passo mais eficaz para mudar a cultura de desenvolvimento de software em sua organização para uma que produza um código mais seguro.
+
+  O [Pwning OWASP Juice Shop](https://pwning.owasp-juice.shop/) é um aplicativo grande, portanto, não abordaremos todos os tópicos do top 10.
+  No entanto, abordaremos os tópicos a seguir, que recomendamos que você dê uma olhada na documentação à medida que avançar nos items.  
+
 ## 1. [Injection](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A1-Injection.html):
 
 Esse tipo de falha é muito conhecida pela técnica **SQL Injection**, onde o invasor realiza consultas indevidas no banco de dados, por meio de um formulário ou URL. [Leia mais sobre o desafio Injection](https://pwning.owasp-juice.shop/part2/injection.html).
