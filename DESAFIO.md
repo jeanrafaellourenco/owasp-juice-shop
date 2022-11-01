@@ -113,9 +113,7 @@ Usamos SQL Injection para fazer login na conta de administrador, mas ainda não 
     No terminal acesse a pasta arquivos e execute o script disponivel com o comando: `time bash brute_force.sh`.  
     Em menos de um minuto vamos quebrar a senha do administrador usando um ataque de força bruta. 
 
-    <br><video width="560" height="315" controls>
-        <source src="imagens/forca_bruta.mp4" type="video/mp4"> Your browser does not support the video tag.
-    </video>
+    https://user-images.githubusercontent.com/22452663/199334466-072b8d2d-0570-49e8-870d-4dae55c32972.mp4
 
     Existem técnicas e ferramentas mais apropriadas para esta tarefa. Para fins didáticos um simples script basta para demonstrar a falha.
 
@@ -304,9 +302,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
         nome: `True-Client-IP`  
         valor: `<iframe src="javascript:alert('xss')">`
 
-    <br><video width="560" height="315" controls>
-        <source src="imagens/stored_xss.mp4" type="video/mp4"> Your browser does not support the video tag.
-    </video>
+    https://user-images.githubusercontent.com/22452663/199335317-e6b449e6-22b5-451e-b929-70d835ac3d69.mp4
 
     **Por que temos que enviar este cabeçalho?**
 
