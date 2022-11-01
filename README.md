@@ -1,4 +1,4 @@
-# Love Stickers Nerd
+# <img alt="love" src="imagens/white-heart-icon-png-2-Free-PNG-Images-Transparent.png" style="max-width: 100%;" width="100" height="100" align="middle"> Love Stickers Nerd
 ```
 ***************** P-R-E-R-I-G-O ☠️ ***********************
 Não execute esta aplicação em um ambiente web ou 
@@ -9,7 +9,29 @@ Sendo um aplicativo da Web com um grande número de vulnerabilidades de seguran�
 
 **Leia as recomendações de segurança [clicando aqui](./config/README.md).**  
 
+<div style="display: inline_block"><br>
+  <a href="https://github.com/jeanrafaellourenco">
+  <h3 align="left">Requisitos:</h3>
+  <ul>
+    <li>Saber ler</li>
+    <li>Navegador web Firefox e Google Chrome</li>
+    <li><details>
+    <summary><b>Docker e docker compose</b></summary>  
+      <pre>
+        sudo apt install -y docker.io docker-compose
+        # add usuario ao grupo docker
+        sudo usermod -aG docker $USER
+        # Talvez seja necessário reiniciar a sessão dos eu usário para aplicar as permiss
+      </pre>
+  </details></li>
+  </ul>  
+    <img alt="firefox" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firefox/firefox-plain-wordmark.svg" style="max-width: 100%;" width="40" height="40" align="middle">
+    <img alt="chrome" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-plain-wordmark.svg" style="max-width: 100%;" width="40" height="40" align="middle">
+   <img align="center" alt="docker" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg">
+</div>
+
 ## Iniciando a aplicação:
+
 ```bash
 git clone https://github.com/jeanrafaellourenco/owasp-juice-shop.git
 cd owasp-juice-shop/
