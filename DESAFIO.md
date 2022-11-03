@@ -271,11 +271,13 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
     Em seguida faça logout na aplicação com as ferramentas de desenvolvedor aberta na aba redes. Observe a url `http://127.0.0.1:3000/rest/saveLoginIp`.
 
-    Com o lado direito do mouse vamos editar e reenviar esta requisição. Após fazer isso, faremos login novamente com o usuário administrador e acessaremos a tela de registro de ip. Se tudo deu certo o alerta xss será executado.
+    Com o lado direito do mouse vamos editar e reenviar esta requisição. Faremos isso inserindo um novo campo no cabeçalho e reenviando à aplicação.
 
-    **Payloads:**   
-        nome: `True-Client-IP`  
-        valor:<pre><iframe src="javascript:alert(`xss`)"></pre>
+    **Payloads:**     
+        <pre>nome: True-Client-IP
+        valor: <iframe src="javascript:alert(`xss`)"></pre>
+        
+    Após fazer isso, faremos login novamente com o usuário administrador e acessaremos a tela de registro de ip. Se tudo deu certo o alerta xss será executado.
 
     https://user-images.githubusercontent.com/22452663/199335317-e6b449e6-22b5-451e-b929-70d835ac3d69.mp4
 
