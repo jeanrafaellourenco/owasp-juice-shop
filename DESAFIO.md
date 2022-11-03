@@ -238,7 +238,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
     Usaremos o elemento iframe com uma tag de alerta javascript: 
 
-    `<iframe src="javascript:alert('xss')">` 
+    <pre><iframe src="javascript:alert(`xss`)"></pre>
 
     Insira isso na barra de pesquisa para acionar o alerta.
 
@@ -246,7 +246,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
     Esse tipo de XSS também é chamado de XFS (Cross-Frame Scripting), é uma das formas mais comuns de detectar XSS em aplicativos da web.
 
-    Os sites que permitem que o usuário modifique o `iframe` ou outros elementos `DOM` provavelmente serão vulneráveis ​​ao `XSS`.   
+    Os sites que permitem que o usuário modifique o `iframe` ou outros elementos `DOM` provavelmente serão vulneráveis ao `XSS`.   
 
     **Por que isso funciona?**
 
@@ -275,7 +275,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
     **Payloads:**   
         nome: `True-Client-IP`  
-        valor: `<iframe src="javascript:alert('xss')">`
+        valor:<pre><iframe src="javascript:alert(`xss`)"></pre>
 
     https://user-images.githubusercontent.com/22452663/199335317-e6b449e6-22b5-451e-b929-70d835ac3d69.mp4
 
@@ -300,7 +300,7 @@ Normalmente, **o cross-site scripting** requer um determinado comportamento do u
 
     Algo parecido com: `http://127.0.0.1:3000/#/track-result?id=dab6-3f54eedde65669cd` 
 
-    Usaremos o iframe XSS,  `<iframe src="javascript:alert('xss')">`,  no lugar do `dab6-3f54eedde65669cd`.
+    Usaremos o iframe XSS no lugar do `dab6-3f54eedde65669cd`:  <pre><iframe src="javascript:alert(`xss`)"></pre>
 
     Depois de enviar o URL (enter), atualize a página e você receberá um alerta dizendo XSS!
 
